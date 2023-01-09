@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="WTFPL"
+issueTrackerURL="https://github.com/Maxmani/arise-no-more/issues"
+[[mods]]
+modId="arisenomore"
+version="1.0.0-forge"
+displayName="Arise No More"
+displayURL="https://modrinth.com/mod/arise-no-more"
+logoFile="icon.png"
+authors="Maxmani"
+description='''
+Adds a new element of unpredictability to the game by introducing a chance of death every time you wake up.
+'''
+[[dependencies.arisenomore]]
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[40,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.arisenomore]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
