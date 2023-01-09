@@ -1,0 +1,1 @@
+A Minecraft mod that adds a new element of unpredictability to the game by introducing a chance of death every time you wake up.
