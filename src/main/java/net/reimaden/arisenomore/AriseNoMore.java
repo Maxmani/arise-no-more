@@ -11,7 +11,7 @@ public class AriseNoMore implements ModInitializer {
 
 	public static final String MOD_ID = "arisenomore";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final int CHANCE = 100;
+	private static final int CHANCE = 100;
 
 	@Override
 	public void onInitialize() {
