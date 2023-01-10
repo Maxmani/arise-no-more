@@ -34,7 +34,7 @@ public class AriseNoMore {
 
         @SubscribeEvent
         public static void onPlayerWakeUp(PlayerWakeUpEvent event) {
-            Player entity = event.getPlayer();
+            Player entity = event.getEntity();
             ServerPlayer player = (ServerPlayer) entity;
             int random = player.getRandom().nextInt(CHANCE);
 
